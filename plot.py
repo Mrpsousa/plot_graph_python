@@ -13,7 +13,8 @@ def plot_graph(algoritimo_A, algoritimo_B, algoritimo_C, quant_teste):
     plt.bar(x1, algoritimo_A, width=0.25, label = 'Algoritimo A', color = 'c')
     plt.bar(x2, algoritimo_B, width=0.25, label = 'Algoritimo B', color = 'y')
     plt.bar(x3, algoritimo_C, width=0.25, label = 'Algoritimo C', color = 'r')
-
+    plt.xlabel("Algo")
+    plt.ylabel("Algo 2")
     # coloca o nome dos meses como label do eixo x
     meses = []
     i = 0
